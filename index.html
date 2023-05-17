@@ -13,11 +13,34 @@
 <!-- Үндсэн мэдээлэл -->
 <div name="intro">
     <H3>Ерөнхий мэдээлэл</H3>
-    <form name="contact" method="POST" data-netlify="true">
+    <form name ="record" method="post" data-netlipy="true">
         <label for="date">Огноо:</label><br>
         <input type="date" id="date" name="date"><br>
+        
         <label for="department">Тасагийн нэр:</label><br>
-        <input type="text" id="department" name="department"><br>
+        <select id="department" name="department"><br>
+                <option value="">Тасагийн нэр сонгоно уу</option>
+                <option value="ANGIOGRAPHY DEPARTMENT">Ангиографийн тасаг</option>
+                <option value="DEPARTMENT OF GENERAL SURGERY">Ерөнхий мэс засал</option>
+                <option value="DEPARTMENT OF UROLOGY AND ANDROLOGY">Урологийн тасаг</option>
+                <option value="DEPARTMENT OF NEUROSURGERY">Мэдрэлийн тасаг</option>
+                <option value="DEPARTMENT OF TRAUMA AND ORTHOPEDIC SURGERY">Гэмтэл ортопед</option>
+                <option value="DEPARTMENT OF ENT, HEAD AND NECK RECONSTRUCTION SURGERY">Толгой хүзүү</option>
+                <option value="DEPARTMENT OF PULMONOLOGY">Уушиг судлал</option>
+                <option value="DEPARTMENT OF OPHTHALMOLOGY">Нүдний тасаг</option>
+                <option value="DEPARTMENT OF CARDIOLOGY">Зүрх судас судлал</option>
+                <option value="DEPARTMENT OF PEDIATRICS">Хүүхдийн тасаг</option>
+                <option value="DEPARTMENT OF NEPHROLOGY AND ENDOCRINOLOGY">Бөөр дотоод шүүрэл</option>
+                <option value="DEPARTMENT OF ICU AND ANESTHESIOLOGY">Мэдээгүйжүүлэг</option>
+                <option value="EMERGENCY DEPARTMENT">Яаралтай</option>
+                <option value="DEPARTMENT OF GASTROENTEROLOGY AND HEPATOLOGY">Хоол боловсруулах</option>
+                <option value="DEPARTMENT OF TRADITIONAL MEDICINE">Уламжлалт эмчилгээ</option>
+                <option value="DEPARTMENT OF NEUROLOGY">Мэдрэл судлал</option>
+                <option value="DEPARTMENT OF VIP">Тусгай тасаг</option>
+                <option value="DEPARTMENT OF VIP - 2">Тусгай тасаг - 2</option>
+                <option value="CCU">Зүрхний ангиогийн нэгж</option>
+                <option value="Stroke unit">Харвалтын нэгж</option>
+        </select><br>
         <label for="reg">Бүртгэсэн ажилтны нэр:</label><br>
         <input type="text" id="reg" name="reg"><br>
         <label for="tele">Бүртгэсэн ажилтны утас:</label><br>
@@ -54,6 +77,32 @@
         <input type="text" id="cdead" name="cdead"><br>
         <label for="cnow">Өглөөний 8.00 -ын байдлаар хөдөө:</label><br>
         <input type="text" id="cnow" name="cnow"><br>
+<!-- Хоолны мэдээ -->
+        <H3>Хоолны мэдээ</H3>
+        <label for="StolNo15">Хоол 15: Ердийн хоол</label><br>
+        <input type="text" id="StolNo15" name="StolNo15"><br>
+        <label for="StolNo10">Хоол 10: Зүрх судасны өвчний үеийн хоол</label><br>
+        <input type="text" id="StolNo10" name="StolNo10"><br>
+        <label for="StolNo9">Хоол 9: Чихрийн шижингийн үеийн хоол</label><br>
+        <input type="text" id="StolNo9" name="StolNo9"><br>
+        <label for="StolNo9">Хоол 7: Бөөрний өвчний үеийн хоол</label><br>
+        <input type="text" id="StolNo7" name="StolNo7"><br>
+        <label for="StolNo5">Хоол 5: Элэг цөсний өвчний үеийн хоол</label><br>
+        <input type="text" id="StolNo5" name="StolNo5"><br>
+        <label for="StolNo5">Хоол 1: Нойрхойн өвчний үеийн хоол</label><br>
+        <input type="text" id="StolNo1" name="StolNo1"><br>
+        <label for="StolNoVegan">Цагаан хоол</label><br>
+        <input type="text" id="StolNoVegan" name="StolNoVegan"><br>
+        <label for="00">Гуурсаар хоол</label><br>
+        <input type="text" id="00" name="00"><br>
+        <label for="zond">00 шөл</label><br>
+        <input type="text" id="zond" name="zond"><br>
+        <label for="foodsec">Өтгөрүүлсэн хоол</label><br>
+        <input type="text" id="foodsec" name="foodsec"><br>
+        <label for="non-food">Хоол сойх</label><br>
+        <input type="text" id="non-food" name="non-food"><br>
+
+
 <!-- Илгээх хэсэг  -->
 <br><input type="submit" value="Submit">
 </form>
