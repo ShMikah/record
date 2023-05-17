@@ -9,7 +9,6 @@
 <body>
     <H1>Мэдээний хуудас</H1>
     <p>ЭМС-ийн 2019 оны Эрүүл мэндийн сайдын 611 дугаар тушаалын хавсралт</p>
-
 <!-- Үндсэн мэдээлэл -->
 <div name="intro">
     <H3>Ерөнхий мэдээлэл</H3>
@@ -17,7 +16,29 @@
         <label for="date">Огноо:</label><br>
         <input type="date" id="date" name="date"><br>
         <label for="department">Тасагийн нэр:</label><br>
-        <input type="text" id="department" name="department"><br>
+        <select id="department" name="department"><br>
+                <option value="">Тасагийн нэр сонгоно уу</option>
+                <option value="ANGIOGRAPHY DEPARTMENT">Ангиографийн тасаг</option>
+                <option value="DEPARTMENT OF GENERAL SURGERY">Ерөнхий мэс засал</option>
+                <option value="DEPARTMENT OF UROLOGY AND ANDROLOGY">Урологийн тасаг</option>
+                <option value="DEPARTMENT OF NEUROSURGERY">Мэдрэлийн тасаг</option>
+                <option value="DEPARTMENT OF TRAUMA AND ORTHOPEDIC SURGERY">Гэмтэл ортопед</option>
+                <option value="DEPARTMENT OF ENT, HEAD AND NECK RECONSTRUCTION SURGERY">Толгой хүзүү</option>
+                <option value="DEPARTMENT OF PULMONOLOGY">Уушиг судлал</option>
+                <option value="DEPARTMENT OF OPHTHALMOLOGY">Нүдний тасаг</option>
+                <option value="DEPARTMENT OF CARDIOLOGY">Зүрх судас судлал</option>
+                <option value="DEPARTMENT OF PEDIATRICS">Хүүхдийн тасаг</option>
+                <option value="DEPARTMENT OF NEPHROLOGY AND ENDOCRINOLOGY">Бөөр дотоод шүүрэл</option>
+                <option value="DEPARTMENT OF ICU AND ANESTHESIOLOGY">Мэдээгүйжүүлэг</option>
+                <option value="EMERGENCY DEPARTMENT">Яаралтай</option>
+                <option value="DEPARTMENT OF GASTROENTEROLOGY AND HEPATOLOGY">Хоол боловсруулах</option>
+                <option value="DEPARTMENT OF TRADITIONAL MEDICINE">Уламжлалт эмчилгээ</option>
+                <option value="DEPARTMENT OF NEUROLOGY">Мэдрэл судлал</option>
+                <option value="DEPARTMENT OF VIP">Тусгай тасаг</option>
+                <option value="DEPARTMENT OF VIP - 2">Тусгай тасаг - 2</option>
+                <option value="CCU">Зүрхний ангиогийн нэгж</option>
+                <option value="Stroke unit">Харвалтын нэгж</option>
+        </select><br>
         <label for="reg">Бүртгэсэн ажилтны нэр:</label><br>
         <input type="text" id="reg" name="reg"><br>
         <label for="tele">Бүртгэсэн ажилтны утас:</label><br>
@@ -81,8 +102,6 @@
 <!-- Илгээх хэсэг  -->
 <br><input type="submit" value="Submit">
 </form>
-
 </div>
-
 </body>
 </html>
